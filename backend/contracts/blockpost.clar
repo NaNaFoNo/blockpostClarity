@@ -20,7 +20,7 @@
 
 ;; public functions
 ;;
-(define-read-only (func-get-total-posts) 
+(define-read-only (get-total-posts) 
   (var-get total-posts)
 )
 
