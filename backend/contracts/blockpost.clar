@@ -20,4 +20,10 @@
 
 ;; public functions
 ;;
+(define-read-only (func-get-total-posts) 
+  (var-get total-posts)
+)
 
+(define-read-only (get-post (user principal)) 
+  (map-get? post user)
+)
